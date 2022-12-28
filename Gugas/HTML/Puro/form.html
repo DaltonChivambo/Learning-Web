@@ -7,8 +7,9 @@
     <title>Formulario</title>
 </head>
 <body>
-    <h1>Formulario</h1>
+    <h1>Formulario</h1><br>
 
+    <h2>Dados principais</h2>
     <form action="arquivo.php">
         <label for="name_input">Nome:</label>
         <input type="text" id="name_input" placeholder="Insira o nome" required>
@@ -18,8 +19,20 @@
         <br>
         <label for="email_input">Email: </label>
         <input type="email" id="email_input" placeholder="Insira o email" required>
+
+        <br><br>
+        <h2>Genero</h2>
+        <input type="radio" name="gender_name" id="masculine_id" value="Masculino">
+        <label for="masculine_id">Masculino</label> <br>
+
+        <input type="radio" name="gender_name" id="femenine_id" value="Femenino" >
+        <label for="femenine_id">Femenino</label> <br>
+
+        <input type="radio" name="gender_name" id="secret_gender_id" value="prefiro nao divulgar" >
+        <label for="secret_gender_id">Prefiro nao divulgar</label> 
         <br><br>
         <input type="submit" value="Enviar Formulario">
+
     </form>
 </body>
 </html>
