@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Super Fox">
+    <title>Formularios Html</title>
+</head>
+<body>
+    <h1>Formularios</h1><hr>
+    <br><br>
+    <h2>Cadastro</h2>
+
+    <form action="arquivo.php" method="get">
+        <br>
+        <label for="Campo nome">Nome:</label>
+        <input id="Campo nome" type="text" placeholder="Digite o seu nome" required>
+        <br><br><br>
+        <label for="Campo codigo">Senha:</label>
+        <input id="Campo codigo" type="password" placeholder="Digite o seu Codigo" required><br><br><br>
+        <label for="Campo Email">Email:</label>
+        <input id="Campo Email" type="email" placeholder="Digite o seu email"required>
+<br><br> <hr>
+ 
+
+        <h3>Veiculo</h3>
+        <input type="radio" name="veiculo" value="Carro" id="Car"> <label for="Car">Carro</label><br>
+
+        <input type="radio" name="veiculo" value="Aviao" id="Airplane"> 
+        <label for="Airplane">Aviao</label><br>
+
+        <input type="radio" name="veiculo" value="Navio" id="Ship"> <label for="Ship">Navio</label><br><br><br>
+        <h3>O que voce tem nos bolsos??</h3>
+        <input type="checkbox" name="item1" value="Chaves" id="Keys"> <label for="Keys">Chaves</label><br>
+
+        <input type="checkbox" name="item2" value="Canivete" id="Knife"> <label for="Knife">Canivete</label><br>
+
+        <input type="checkbox" name="item3" value="Carteira" id="Badget"> <label for="Badget">Carteira</label><br><br>
+
+       <h2></h2> 
+
+
+        <input type="submit" value="Iniciar Sessao">
+        <br>
+
+    </form>
+
+</body>
+</html>
