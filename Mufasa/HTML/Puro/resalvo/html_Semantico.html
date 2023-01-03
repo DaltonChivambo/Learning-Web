@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sper Fox">
+    <title>Html Semantico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            background-color: #2f2f36;
+        }
+        .topo{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a{
+            color: white;
+            padding: 14px 16px ;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna1{
+            float: left;
+            width: 50%;
+            height: max-content;
+            padding: 15px;
+            background-color: #656b7a;
+        }
+        .coluna2{
+            float: right;
+            width: 50%;
+            padding: 15px;
+            background-color:  #7d83a3;
+        }
+        .rodape{
+            float:inline-end;
+            padding: 15px;
+        }
+        
+    </style>
+ 
+
+
+</head>
+
+<body>
+    <header class="topo">
+        <h1>Gugas vs Mufasa</h1>
+        <p>Aprenda como aprendemos</p>
+    </header>
+
+    <nav class="menu">
+        <a href="/Gugas/HTML/Puro/index.html">Gugas</a>
+        <a href="/Mufasa/HTML/Puro/index.html">Mufasa</a>
+        <a href="audio.html">Audio</a>
+        <a href="video.html">Video</a>    
+    </nav>
+    <br><br>
+    <article class="coluna1">
+        <h2>Gugas</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quam, cumque quis illo tempora veniam cum odio dolore excepturi totam incidunt repellendus cupiditate consequatur aperiam saepe asperiores repellat expedita possimus.</p>
+    </article>
+    
+    <article class="coluna2"> 
+        <h2>Mufasa</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi maxime eveniet dolor cupiditate eaque unde necessitatibus ut exercitationem debitis impedit rerum illo officiis accusamus est perferendis deserunt, voluptates corrupti vero
+        proeminence burn.    
+        </p>
+    </article>
+    <footer class="rodape">
+        <a href="index.html"><small>voltar</small></a>
+    </footer>
+
+
+</body>
+</html>
