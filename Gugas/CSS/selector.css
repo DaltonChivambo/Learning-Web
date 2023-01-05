@@ -1,0 +1,12 @@
+body{
+    background: #ccc;
+}
+
+p{
+    color: red;
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
