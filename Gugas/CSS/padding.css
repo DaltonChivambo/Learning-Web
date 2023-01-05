@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: #f7f7f7;
+    text-align: center;
+    background: black;
+    border: 1px solid black;
+    border-radius: 30px ;
+    
+    padding: 50px 20px 10px 70px;
+}
+
+p{
+    color: red;
+    margin-left: 20px;
+}
+
+.exemplo_background{
+    height: 100px;
+    background-color: gray;
+    background-image: url("../../Image/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+
+
+
+    /* Podemos chamar os atributos background desta maneira.*/
+    background: gray url('../../Image/background.jpg') no-repeat center cover;
+
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background: greenyellow;
+    color: black
+}
