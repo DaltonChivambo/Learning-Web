@@ -1,3 +1,44 @@
+
+.borda{
+    border: 1px solid red;
+}
+
+p{
+     
+}
+
+li{
+    display: inline;
+}
+li.lii{
+    display: inline;
+}
+
+.aa{
+    display: inline-block;
+    padding: 30px;
+}
+
+
+#p1:hover{
+    display: none;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+.rosa{
+    background-color: palevioletred;
+}
+.azul{
+    background-color: rgb(0, 153, 255);
+}
+div{
+    width: 33%;
+    height: 150px;
+    display: inline-block;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yeon+Sung&display=swap');
 
 h1{
@@ -10,5 +51,4 @@ h1{
     font-family: 'Indie Flower', cursive;
     font-style:oblique;
     font-weight:lighter;
-    font-size: 40px;
-}
+    font-size: 40
