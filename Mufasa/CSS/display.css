@@ -1,3 +1,4 @@
+
 .borda{
     border: 1px solid red;
 }
@@ -37,3 +38,17 @@ div{
     height: 150px;
     display: inline-block;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yeon+Sung&display=swap');
+
+h1{
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid black  ;
+    background-color: black;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-style:oblique;
+    font-weight:lighter;
+    font-size: 40
