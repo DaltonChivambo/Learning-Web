@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: #f7f7f7;
+    text-align: center;
+    background: black;
+    border: 1px solid black;
+    border-radius: 30px ;
+    letter-spacing: -2px;
+    
+    padding: 50px 20px 10px 70px;
+}
+
+p{
+    margin-left: 20px;
+    text-align: justify;
+    text-decoration: underline;
+    /*text-transform: uppercase;*/
+    text-indent: 50px;
+    line-height: 3;    
+    word-spacing: 15px;
+}
+
+
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background: greenyellow;
+    color: black
+}
+a{
+    text-decoration:none;
+}
