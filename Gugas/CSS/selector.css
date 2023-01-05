@@ -1,0 +1,34 @@
+*{
+    padding: 20px;
+}
+
+body{
+    background: #ccc;
+}
+
+p,h1{
+    color: blue;
+    text-align: center;
+}
+
+a{
+    color: purple;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.vermelho{
+    color: red;
+}
+
+.fonte_30{
+    font-size: 30px;
+}
+
+#text_id{
+    color: green;
+    background: yellow;
+}
