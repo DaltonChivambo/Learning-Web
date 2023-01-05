@@ -3,11 +3,25 @@ body{
 }
 
 h1{
-    color: #13a3a8;
+    color: #f7f7f7;
+    text-align: center;
+    background: black;
+    border: 1px solid black;
+    border-radius: 30px ;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 40px;
+    /* Podemos chamar os atributos margin desta maneira.*/
+    margin: 30px 70px 150px 20px;
+    
 }
 
 p{
     color: red;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .exemplo_background{
