@@ -3,7 +3,13 @@ body{
 }
 
 h1{
-    color: #13a3a8;
+    color: #f7f7f7;
+    text-align: center;
+    background: black;
+    border: 1px solid black;
+    border-radius: 30px ;
+    
+    
 }
 
 p{
