@@ -3,10 +3,22 @@ body{
 }
 
 p{
-    color: red;
+    color: blue;
 }
 
 a{
     color: green;
     text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.vermelho{
+    color: red;
+}
+
+.fonte_30{
+    font-size: 30px;
 }
