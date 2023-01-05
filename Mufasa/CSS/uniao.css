@@ -1,0 +1,105 @@
+/*propriedades gerais*/
+*{
+    padding: 20px;
+    
+}
+hr{
+    padding: 0px;
+}
+
+/*propriedades do corpo*/
+body{
+    background-color: whitesmoke;
+}
+
+/*propriedades do tema*/
+h1{
+    background-color: #333;
+    text-align: center;
+    color: #13a3a8;
+}
+
+/*propriedades dos paragrafos*/
+p{
+    color: rebeccapurple;
+}
+
+/*propriedades do link*/
+a{
+    text-decoration: none;
+    
+}
+
+/*propriedades de uma classe*/
+.center{
+    text-align: center;
+}
+.vermelho{
+    color: red;
+}
+.fonte{
+    font-size: 12px;
+}
+
+/*proppriedades de uma id, lembrar que nunca comeca com nrs*/
+#teste{
+    background-color: darkgray;
+    color: red;
+    font-size: 13px;
+
+}
+
+/*Propriedades de Background 2 tipos Background short hand apenas e Background especificando*/
+.ex{
+    height: 300px;
+    background-color: red;
+    background-image: url(../Imagens/8d3da33c22168d60cded57081b6d2706c5998659.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    background: red url(../Imagens/8d3da33c22168d60cded57081b6d2706c5998659.jpg) cover center;
+
+
+
+
+}
+#img{
+    color: green;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*propriedades das Bordas dotted:pontos, double: dupla, solid: solida, dashed: tracos e groove a que esta em uso. Tambem se pode indicar a localizacao ex: border-left, border-right... e border-radius para o formato da borda*/
+h1{
+    border-left: 90px groove red;
+    border-right: 90px groove red;
+    border-top: 90px groove red;
+    border-bottom: 90px groove #333;
+}
+
+/*Margin=preenchimento de fora para o conteudo, espacamento apartir de uma localizacao |short hand top right bottom left sentido horario margin: 2px 8 px 9px 9px| */
+h1{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+/*Padding=preenchimento de dentro do conteudo para fora e criacao de botao */
+h1{
+    padding-top: 30px;
+    padding: 30px 0px 50px 0px;
+}
+.ex{
+    margin-bottom: 100px;
+
+}
+.botao{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.botao:hover{
+    background-color: #333;
+}
+
