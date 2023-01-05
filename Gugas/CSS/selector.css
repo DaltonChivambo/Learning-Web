@@ -1,9 +1,16 @@
+*{
+    padding: 20px;
+}
+
 body{
     background: #ccc;
 }
 
-p{
+
+
+p,h1{
     color: blue;
+    text-align: center;
 }
 
 a{
