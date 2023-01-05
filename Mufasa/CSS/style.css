@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yeon+Sung&display=swap');
+
 h1{
     text-align: center;
     padding: 30px;
@@ -5,6 +7,10 @@ h1{
     border: 2px solid black  ;
     background-color: black;
     color: white;
+    font-family: 'Indie Flower', cursive;
+    font-style:oblique;
+    font-weight:lighter;
+    font-size: 40px;
 }
 /*removeu width e add max width*/
 .teste{
@@ -14,7 +20,82 @@ h1{
     
 }
 
+/*Fonte font-family*/
+
 .textoA{
     color: red;
-    text-decoration: dashed;
+    text-decoration: line-through;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+
 }
+
+/*Estilizacao de links*/
+
+a.btn1{
+    background: darkgreen;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+a.btn1:hover{
+    background: green;
+    padding: 12px;
+    border: 4px solid greenyellow;
+    
+}
+
+a.btn2{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    
+}
+a.btn2:hover{
+    text-decoration: underline;
+    padding: 10px;
+    border: 5px double  black ;
+    color: black;
+    background-color: white;
+    
+}
+
+
+a.btn3{
+
+color: black;
+text-decoration: none;
+}
+
+a.btn3:hover{
+
+   border-bottom: 5px double red;
+    }
+
+a.btn4{
+    text-decoration: none;
+    color: clack;
+
+    
+}
+
+a.btn4:hover{
+    font-size: 22px;
+    font-weight: bold;
+
+    }
+
+a.btn5{
+    /*mexer com escolha de cursor*/
+    cursor:grab;
+
+}
+
+/*Texto unicode-bidi: bidi-override para textos arabes e asiaticos(japoneses), line-through para cortar o texto, text-transform "uppercase tudo maiusculo etc. Text-indent para paragrafos as entrancas. Letter-Space  para separar as letras, Line-height espacamento entre as linhas e decimal, Word-space espacamento entre palavras"*/
