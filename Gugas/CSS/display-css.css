@@ -1,0 +1,37 @@
+.borda{
+    border: 1px solid red;
+}
+
+
+p{
+
+}
+
+#p1{
+    display: block;
+}
+
+#p1:hover{
+    display: none;
+}
+
+
+.azul{
+    background: blue;
+}
+
+.vermelho{
+    background: red;
+}
+
+.verde{
+    background: green;
+}
+
+
+
+li.pad{
+    display: inline-block;
+    width: 33%;
+    height: 50px;
+}
