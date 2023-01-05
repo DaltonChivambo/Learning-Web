@@ -7,7 +7,7 @@ p{
 }
 
 a{
-    color: green;
+    color: purple;
     text-decoration: none;
 }
 
@@ -21,4 +21,9 @@ a{
 
 .fonte_30{
     font-size: 30px;
+}
+
+#text_id{
+    color: green;
+    background: yellow;
 }
