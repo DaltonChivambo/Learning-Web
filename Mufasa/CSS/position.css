@@ -1,0 +1,79 @@
+.container{
+    background-color: blue;
+    width: 100%;
+    height: 400px;
+
+    display: inline-block;
+    position: relative;
+
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    border: 2px dashed rgb(255,1,158);
+    background-color: ;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
+
+}
+.centro{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: rgb(255,1,158);
+    font-size: 30px;
+    
+    
+    
+}
+
+.div1{
+    /*Relative nos da opcao de usar left right top buttom e ainda z-index para trabalhar com camdas*/
+    position: relative;
+    left: 20px;
+    width: 30%;
+    height: 100px;
+    background: yellow;
+    display: inline-block;
+}
+
+.div2{
+        /*Sticky para comecar a div pai nao pode ter uma position static*/
+    width: 30%;
+    height: 100px;
+    background: rgb(255,1,158);
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+}
+
+.div3{
+        /*Absolute para comecar a div pai nao pode ter uma position static, nos da opcao de tratar as componentes com base na componente pai ex mexer uma div em relacao a div pai*/
+    width: 30%;
+    height: 100px;
+    background: red;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    right: 40%;
+}
+
+.whats{
+        /*Fixed nos da opcao de usar left right top buttom em relacao a tela*/
+    background: green;
+    color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
