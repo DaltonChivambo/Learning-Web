@@ -1,13 +1,57 @@
-body{
-    overflow-x: hidden;
 
+body {
+    overflow-x: hidden;
 }
 
-.exemplo{
+.exemplo {
     /*overflow: hidden visible scroll. So funciona com algum height. y para scroll vertical funciona com height e x para scroll horizontal funciona com width*/
     background-color: rgb(255, 0, 119);
     color: white;
-    overflow:auto;
-    height: 200px;
+    overflow: auto;
+    height: 105px;
 
+}
+
+.float {
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    overflow: auto;
+
+
+}
+
+.float img {
+    float: left;
+    margin: 10px 10px 10px 20px;
+
+}
+
+ul {
+    background-color: rgb(255, 0, 119);
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.login{
+    float: right;
+}
+
+.login a:hover{
+color: black;
+background-color: rgb(255, 0, 119);
 }
