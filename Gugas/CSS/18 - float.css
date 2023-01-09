@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.container img{
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.clear{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /*clear: both;*/
+}
+
+ul{
+    background: black;
+    padding: 20px;
+    
+}
+li{
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background: #ccc;
+    color: black;
+}
+
+.login{
+    float: right;
+}
+
+.login a:hover{
+    background: orangered;
+    color: white;
+}
