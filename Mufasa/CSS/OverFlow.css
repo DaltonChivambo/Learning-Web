@@ -1,0 +1,13 @@
+body{
+    overflow-x: hidden;
+
+}
+
+.exemplo{
+    /*overflow: hidden visible scroll. So funciona com algum height. y para scroll vertical funciona com height e x para scroll horizontal funciona com width*/
+    background-color: rgb(255, 0, 119);
+    color: white;
+    overflow:auto;
+    height: 200px;
+
+}
