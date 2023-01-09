@@ -1,0 +1,20 @@
+.div-overflow{
+    background: blue;
+    color: white;
+    height: 200px;
+    overflow: auto;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.div-overflow-x{
+    background: blue;
+    color: white;
+    height: 200px;
+    overflow: auto;
+    width: 1200px;
+}
