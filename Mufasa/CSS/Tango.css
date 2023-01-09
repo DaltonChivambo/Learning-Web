@@ -1,0 +1,131 @@
+h1{
+    font-size: 23px;
+    text-align: center;
+    font-weight: lighter;
+}
+h2{
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+nav{
+    margin-left: 25%;
+}
+
+#link1{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14, 6, 44);
+    border-radius: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-right: 70px;
+
+    font-size: 13px;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+hr{
+    
+    
+    display: inline-block;
+    padding-left: 220px;
+}
+
+#link2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 12px;
+    color: grey;
+
+}
+
+#link1:hover{
+    background-color:rgb(55, 2, 245);
+}
+
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#Fname{
+    margin-right:250px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#Fnametxt{
+    border-radius: 5px;
+    padding: 20px 60px 0px 60px;
+    
+    
+}
+#Lnametxt{
+    border-radius: 5px;
+    padding: 20px 60px 0px 60px;
+    margin-left: 8px;
+   
+}
+
+#email{
+    display: block;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+#password{
+    display: block;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+input{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px 230px 10px 230px;
+}
+p{
+    margin: 5px;
+    font-size: 12px;
+    color: grey;
+}
+#link4p{
+ 
+    text-align: center;
+    margin-top: 20px;
+}
+#link3{
+    border: 1px solid rgba(255, 249, 249, 0.829);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    color: grey;
+    text-decoration: none;
+
+    display: block;
+
+    margin-top: 20px;
+}
+
+#link3:hover{
+    background-color: rgb(14, 6, 44);
+}
+
+
