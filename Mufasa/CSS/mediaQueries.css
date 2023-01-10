@@ -1,3 +1,10 @@
+h2{
+    color: white;
+    font-size: 14px;
+    
+}
+
+
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
     body{
@@ -8,22 +15,50 @@
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media only screen and (min-width: 600px) {
-    background-color: green;
+    body{
+        background-color: green;
+
+    }
+
 }
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media only screen and (min-width: 768px) {
-    background-color: ;
+    body{
+        background-color: yellow;
+    }
 
 }
+/*Outro tipo de media querie rwite*/
 
+@media screen and (max-width:900px) and (min-width: 800px){
+    body{
+        background-color: white;
+    }
+    .exemplo{
+        display: none;
+    }
+}
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px) {
-
+    body{
+        background-color: red;
+    }
+    h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .exemplo{
+        display: none;
+    }
 }
 
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
 @media only screen and (min-width: 1200px) {
+    body{
+        background-color: violet;
+    }
+
 
 }
 
