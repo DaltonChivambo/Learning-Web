@@ -1,6 +1,6 @@
+
 body {
     overflow-x: hidden;
-
 }
 
 .exemplo {
@@ -53,5 +53,4 @@ li a:hover {
 .login a:hover{
 color: black;
 background-color: rgb(255, 0, 119);
-
 }
