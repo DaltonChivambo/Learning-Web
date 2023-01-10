@@ -60,7 +60,7 @@ li.dropdown{
 
 /*Especificidade*/
 .red{
-    background-color: red;
+    background-color: #333;
 }
 
 /*Regra Importante para teste e o melhor jeito, porem crie uma confusao na organizacao dificultando o entendimento.*/
@@ -75,7 +75,7 @@ li.dropdown{
 
 h1{
     text-align: center;
-    color: green  /* !important */;
+    color: rgb(59, 59, 59)  /* !important */;
 }
 
 
@@ -93,4 +93,14 @@ h1{
     bottom: 50px;
     width: 100%;
 
+}
+
+/*Text shadow pode se usar o blur que e o 3 parametro um desfoque para a sombra*/
+h1{
+    text-shadow: 1px 7px 5px #333;
+
+}
+
+.iddd{
+    text-shadow:  1px 6px 4px white;
 }
