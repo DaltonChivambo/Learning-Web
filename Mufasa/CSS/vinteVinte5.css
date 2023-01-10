@@ -1,94 +1,94 @@
-body{
-    background-image: linear-gradient(90deg, black, #333,red, blue, black);
-
+body {
+    background-image: linear-gradient(90deg, black, #333, red, blue, black);
 }
 
-
-ul{
+ul {
     background-color: #333;
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
-   
 }
 
-li{
+li {
     float: left;
-    
+
 }
-li a, .dropbtn{
+
+li a,
+.dropbtn {
     display: inline-block;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
-
 }
-li a:hover, .dropdown:hover .dropbtn{
+
+li a:hover,
+.dropdown:hover .dropbtn {
     /*.dropdown:hover faz para os links todos com referencia ao link um na mesma hora, .dropdown:hover .dropbtn faz os links terem relacao com o link principal um de cada vez  */
     background-color: white;
-    
+
 }
 
-li.dropdown{
+li.dropdown {
     display: inline-block;
-
+    float: right;
 }
 
-.dropdown-content{
+.dropdown-content {
     display: none;
     position: absolute;
     width: 92px;
-    
+
 }
 
-.dropdown-content a{
+.dropdown-content a {
     display: block;
     text-align: left;
     border-bottom: 1px solid rgba(0, 0, 0, 0.212);
-   
+
 }
 
-.dropdown-content a:hover{
+.dropdown-content a:hover {
     background-color: #333;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
 /*Especificidade*/
-.red{
+.red {
     background-color: #333;
 }
 
 /*Regra Importante para teste e o melhor jeito, porem crie uma confusao na organizacao dificultando o entendimento.*/
-#idd{
+#idd {
     color: rgb(112, 20, 20);
-
 }
 
-.classe{
+.classe {
     color: blue;
 }
 
-h1{
+h1 {
     text-align: center;
-    color: rgb(59, 59, 59)  /* !important */;
+    color: rgb(59, 59, 59)
+        /* !important */
+    ;
 }
 
 
 /*Colocar o tema la no rodape*/
-
-.Especificidade{
-    position: absolute;
+.Especificidade {
+    position: fixed;
     bottom: 0px;
     width: 100%;
 
 }
 
-.RegraImportante{
+.RegraImportante {
     position: absolute;
     bottom: 50px;
     width: 100%;
@@ -96,11 +96,36 @@ h1{
 }
 
 /*Text shadow pode se usar o blur que e o 3 parametro um desfoque para a sombra*/
-h1{
+h1 {
     text-shadow: 1px 7px 5px #333;
+}
+
+.iddd {
+    text-shadow: 1px 6px 4px white;
+}
+
+
+h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.caixa {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.iddd{
-    text-shadow:  1px 6px 4px white;
+.reduzida {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 30px;
+}
+
+.caixa:hover .reduzida {
+    white-space: normal;
+
 }
