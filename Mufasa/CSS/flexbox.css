@@ -1,0 +1,46 @@
+*{
+    /*Padrao sempre colocar*/
+    box-sizing: border-box;
+}
+
+.flex-containner{
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+
+    /*nowrap nao leva em conta o tamanho do containner coloca tudo em uma unica linha ja o wrap coloca tudo dentro da div dependendo do tamanho da tela. O short hand e flex-flow: row wrap*/
+    flex-wrap: wrap;
+
+
+    /*para substituir float largura x se usar space-between usa o espaco padrao do container, space around +/- igual */
+    justify-content: center;
+
+    /*para substituir position altura y itens em nivel individual*/
+    align-items: flex-end;
+
+    /*Para ajustar tudo no mesmo espaco ou bloco , itens em nivel conjunto*/
+
+    align-content: center;
+}
+
+@media screen and (max-width:900px){
+    .flex-containner{
+        flex-direction: row;
+    }
+}
+
+.flex-containner div{
+    /*flex-grow sempre se mexe nas divs filhas e as divs crescem de forma uniforme*/
+    flex-grow: 1;
+
+    /**/
+
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+
+
+
+}
