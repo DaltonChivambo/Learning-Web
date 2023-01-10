@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    background: white;
+    color: #467401;
+}
+body{
+    margin: 0;
+}
+
+
+.header{
+    background: #467401;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    background: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: #467401;
+}
+
+
+
+
+
+.corpo{
+   display: flex;
+   flex-flow: row wrap;
+   background: blue;
+}
+
+.card{
+    flex: 48%;
+    background: #ccc;
+    display: flex;
+    height: 200px;
+    margin: 1%;
+    display: flex;
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        flex-direction: column;
+    }
+
+    .link{
+        height: 400px;
+    }
+    .corpo{
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 20px;
+    }
+  
+
+}

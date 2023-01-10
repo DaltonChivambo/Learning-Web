@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Um item do lado do outro*/
+.flex-container{
+    background: blue;
+    display: flex;
+    height: 600px;
+    /*Short hand [direction wrap]*/
+    flex-flow: row wrap;
+
+    /*posicao em relacao a largura x*/
+    /*Space around e between*/
+    justify-content: center;
+    /*posicao em relacao a altura y*/
+    /*align-items: center;*/
+    /*Todos componentes ficam agrupados*/
+    align-content: flex-start;
+}
+
+.flex-container div{
+    flex-grow: 1;
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+}
+
