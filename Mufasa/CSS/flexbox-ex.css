@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+
+}
+
+.header{
+    background-color: #467401;
+    padding: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #467401;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+
+.body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    background-color: #467401;
+}
+
+.card{
+
+    flex:48%;
+    background-color: #ccc;
+    height: 100px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+
+@media screen and (max-width:500px){
+    .navbar{
+        flex-direction: column;
+    }
+
+}
