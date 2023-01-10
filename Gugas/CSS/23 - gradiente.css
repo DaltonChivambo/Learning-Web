@@ -1,0 +1,21 @@
+
+div{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom right,green,rgb(175, 201, 175));
+    margin-bottom: 10px;
+}
+
+.gradiente{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(60deg,blue,red,green);
+    margin-bottom: 10px;
+}
+
+.radial{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(blue,black );
+    margin-bottom: 10px;
+}
