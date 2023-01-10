@@ -1,0 +1,34 @@
+
+
+/*Efeito Gradiente*/
+
+#gradienteBaixoCima{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(blue,red, yellow);
+}
+
+#gradienteDireitaEsquerda{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to left, blue,red, yellow);
+}
+
+#gradienteObliqua{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(45deg , blue,red, yellow);
+    /*Usando somente cores e to bottom right, usando inclinacao   45deg*/
+}
+
+
+#gradienteCircular{
+
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(green,blue,black, red, #333);
+    
+}

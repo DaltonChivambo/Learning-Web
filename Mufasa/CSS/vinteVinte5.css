@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(90deg, black, #333,red, blue, black);
+
+}
+
+
+ul{
+    background-color: #333;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+}
+
+li{
+    float: left;
+    
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+li a:hover, .dropdown:hover .dropbtn{
+    /*.dropdown:hover faz para os links todos com referencia ao link um na mesma hora, .dropdown:hover .dropbtn faz os links terem relacao com o link principal um de cada vez  */
+    background-color: white;
+    
+}
+
+li.dropdown{
+    display: inline-block;
+
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 92px;
+    
+}
+
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+   
+}
+
+.dropdown-content a:hover{
+    background-color: #333;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*Especificidade*/
+.red{
+    background-color: red;
+}
+
+/*Regra Importante para teste e o melhor jeito, porem crie uma confusao na organizacao dificultando o entendimento.*/
+#idd{
+    color: rgb(112, 20, 20);
+
+}
+
+.classe{
+    color: blue;
+}
+
+h1{
+    text-align: center;
+    color: green  /* !important */;
+}
+
+
+/*Colocar o tema la no rodape*/
+
+.Especificidade{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.RegraImportante{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+
+}
