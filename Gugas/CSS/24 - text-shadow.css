@@ -1,0 +1,15 @@
+h1{
+    /*horizontal, vertical, blur*/
+    /*blur serve para suavizacao*/
+    text-shadow: 2px 2px 5px red;
+}
+
+.branco{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.multipla{
+    color: black;
+    text-shadow: 0 0 10px #FF0000, 2PX 2PX 5PX yellow;
+}
